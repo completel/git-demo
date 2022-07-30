@@ -59,3 +59,15 @@
 > git clone <远程地址> // 克隆远程仓库到本地  
 > 
 > git commit --amend // 修改commit提交之后的注释  
+> 
+> git branch // 列出分支基本命令  
+> 
+> git branch  <branchname> // 手动添加一个分支  
+>
+> git checkout // 切换分支  
+> 
+>  git checkout -b (branchname)  // 命令来创建新分支并立即切换到该分支下，从而在该分支中操作。  
+>  
+> git branch -d (branchname) // 删除分支命令  
+> 
+> git merge // 合并分支  
