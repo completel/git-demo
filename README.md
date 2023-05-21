@@ -52,6 +52,8 @@
 >
 > git remote add <别名> <远程地址>
 >
+> it remote rename old_name new_name  # 修改仓库名
+> 
 > git push <别名> <分支> // 推送远程库
 >
 > git pull <别名> <分支> // 拉取远程库
@@ -64,6 +66,8 @@
 > 
 > git branch  <branchname> // 手动添加一个分支  
 >
+>  git branch -m oldName newName // 修改分支名
+>  
 > git checkout // 切换分支  
 > 
 >  git checkout -b (branchname)  // 命令来创建新分支并立即切换到该分支下，从而在该分支中操作。  
