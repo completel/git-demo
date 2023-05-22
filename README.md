@@ -7,7 +7,7 @@
 >
 > git init	 // 初始化本地库
 >
-> git stutas	// 查看本地库状态
+> git status	// 查看本地库状态
 >
 > git add <文件名> // 添加到暂存区
 >
@@ -36,7 +36,7 @@
 >
 > git init // 初始化本地库
 >
-> git stutas // 查看本地库状态
+> git status // 查看本地库状态
 >
 > git add <文件名> // 添加到暂存区
 >
