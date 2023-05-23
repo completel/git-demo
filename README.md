@@ -83,3 +83,5 @@
 > git pull <远程主机名> <远程分支名>:<本地分支名> // 其实就是 git fetch 和 git merge FETCH_HEAD 的简写  
 > 
 > git pull origin master // 如果远程分支是与当前分支合并，则冒号后面的部分可以省略。
+> 
+> git remote set-url <仓库别名> <新仓库地址> // 更改远程仓库地址
