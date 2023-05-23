@@ -79,3 +79,7 @@
 > git merge // 合并分支 
 > 
 > git merge <仓库别名>/<分支名> // 将远程仓库的数据合并到分支里
+>   
+> git pull <远程主机名> <远程分支名>:<本地分支名> // 其实就是 git fetch 和 git merge FETCH_HEAD 的简写  
+> 
+> git pull origin master // 如果远程分支是与当前分支合并，则冒号后面的部分可以省略。
