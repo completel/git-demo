@@ -64,7 +64,7 @@
 > 
 > git branch // 列出分支基本命令  
 > 
-> git branch  <branchname> // 手动添加一个分支  
+> git branch  < branchname> // 手动添加一个分支  
 >
 >  git branch -m oldName newName // 修改分支名
 >  
@@ -73,5 +73,9 @@
 >  git checkout -b (branchname)  // 命令来创建新分支并立即切换到该分支下，从而在该分支中操作。  
 >  
 > git branch -d (branchname) // 删除分支命令  
+>
+> git fetch <仓库别名> // 命令用于从远程获取代码库  
 > 
-> git merge // 合并分支  
+> git merge // 合并分支 
+> 
+> git merge <仓库别名>/<分支名> // 将远程仓库的数据合并到分支里
