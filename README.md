@@ -79,6 +79,19 @@
 > git merge // 合并分支 
 > 
 > git merge <仓库别名>/<分支名> // 将远程仓库的数据合并到分支里
+> 
+>  // 会把所有未提交的修改（包括暂存的和非暂存的）都保存起来，用于后续恢复当前工作目录。  
+> git stash  // stash是本地的，不会通过git push命令上传到git server上。  
+> 
+> git stash pop // 命令恢复之前缓存的工作目录。将缓存堆栈中的第一个stash删除，并将对应修改应用到当前的工作目录下    
+> 
+> git stash list // 查看现有stash    
+> 
+> git stash drop <stash名字> // git stash drop stash@{0}    
+>
+> git stash clear // 删除所有缓存的stash  
+>
+> git stash show // 查看指定stash的diff  在该命令后面添加-p或--patch可以查看特定stash的全部diff  
 >   
 > git pull <远程主机名> <远程分支名>:<本地分支名> // 其实就是 git fetch 和 git merge FETCH_HEAD 的简写  
 > 
